@@ -5,6 +5,6 @@ const EyeColor = styled.h3`
   color: brown;
 `;
 
-export default function EyeColor(props) {
+export default function CharEyeColor(props) {
   return <EyeColor>EyeColor: {props.eyecolor}</EyeColor>;
 }

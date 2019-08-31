@@ -5,6 +5,6 @@ const HairColor = styled.h3`
   color: white;
 `;
 
-export default function HairColor(props) {
+export default function CharHairColor(props) {
   return <HairColor>Hair Color: {props.haircolor}</HairColor>;
 }
